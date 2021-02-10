@@ -58,5 +58,5 @@ python train_city_lpls.py --snapshot-dir snapshots \
 
 evaluate：
 
-python evaluate_cityscapes.py --restore-from snapshots/VOC_20000.pth \
+python evaluate_cityscapes.py --restore-from snapshots/CITY_20000.pth \
                        --save-dir results
